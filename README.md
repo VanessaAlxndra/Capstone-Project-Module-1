@@ -37,15 +37,22 @@ Program ini adalah aplikasi manajemen barang untuk gudang furniture. Aplikasi in
 
 ### Admin Menu
 ![Admin Menu Capstone 1](https://github.com/user-attachments/assets/cadd6457-694b-467a-b43f-50f8dec5facf)
+
 ![Menu Daftar Barang Capstone 1](https://github.com/user-attachments/assets/73715676-46f1-4c68-b13a-42d29b040c6c)
+
 ![Menu Tambah Data Barang Capstone 1](https://github.com/user-attachments/assets/9be66e74-da95-430b-8297-2d99e8543914)
+
 ![Menu Hapus Data Barang Capstone 1](https://github.com/user-attachments/assets/107e13c3-1c2d-438a-a543-9d2d1dd43ff3)
+
 ![Menu Update Data Barang Capstone 1](https://github.com/user-attachments/assets/21f2d10b-8f01-4c2b-8fda-ec64bf426885)
 
 ### Marketing Menu
 ![Marketing Menu Capstone 1](https://github.com/user-attachments/assets/85346398-49ca-4ffc-8d4a-8771a10d9b57)
+
 ![Menu Daftar Barang (Marketing) Capstone 1](https://github.com/user-attachments/assets/2409b146-f680-45f4-89f1-2e74584fff7b)
+
 ![Menu Harga Jual Barang Capstone 1](https://github.com/user-attachments/assets/f0666892-6725-4b0c-9bbd-f4e3ddac833b)
+
 ![Menu Alokasi Barang Capstone 1](https://github.com/user-attachments/assets/9b661768-05e6-470f-beb9-1e61bd1db6a3)
 
 
