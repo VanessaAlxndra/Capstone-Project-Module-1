@@ -7,21 +7,20 @@ import pwinput
 from datetime import datetime
 
 listBarang = {
-    1: {'Nama Barang' : 'Lemari Pakaian', 'Stok' : 10, 'Qty Terjual' : 5, 'Harga Beli':700000,'Harga Jual': 900000, 'Kategori': 'Bedroom', 'Warna' : 'Brown', 'Batch No' : 'JAN122025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
-    2: {'Nama Barang' : 'Sofa', 'Stok' : 10, 'Qty Terjual' : 2,'Harga Beli': 3500000,'Harga Jual': 5000000, 'Kategori': 'Living Room', 'Warna' : 'Black', 'Batch No' : 'FEB142025',  'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
-    3: {'Nama Barang' : 'Meja Makan', 'Stok' : 10, 'Qty Terjual' : 0,'Harga Beli': 350000, 'Harga Jual': 500000, 'Kategori': 'Dining Room', 'Warna' : 'White',  'Batch No' : 'DES162025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
-    4: {'Nama Barang' : 'Kursi Makan', 'Stok' : 10, 'Qty Terjual' : 0,'Harga Beli': 150000, 'Harga Jual': 200000, 'Kategori': 'Dining Room', 'Warna' : 'White',  'Batch No' : 'DES162025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
-    5: {'Nama Barang' : 'Tempat Tidur', 'Stok' : 10, 'Qty Terjual' : 0,'Harga Beli': 4500000, 'Harga Jual': 6000000, 'Kategori': 'Bedroom', 'Warna' : 'Grey',  'Batch No' : 'JAN122025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
-    6: {'Nama Barang' : 'Rak Buku', 'Stok' : 10, 'Qty Terjual' : 3,'Harga Beli': 200000, 'Harga Jual': 250000, 'Kategori': 'Bedroom', 'Warna' : 'Brown',  'Batch No' : 'OKT122025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
-    7: {'Nama Barang' : 'Kabinet', 'Stok' : 10, 'Qty Terjual' : 2,'Harga Beli': 1100000, 'Harga Jual': 1250000, 'Kategori': 'Living Room', 'Warna' : 'Black',  'Batch No' : 'OKT122025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
-    8: {'Nama Barang' : 'Meja Tamu', 'Stok' : 10, 'Qty Terjual' : 1,'Harga Beli': 250000, 'Harga Jual': 300000, 'Kategori': 'Living Room', 'Warna' : 'Grey',  'Batch No' : 'OKT122025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''}
+    '1': {'Nama Barang' : 'Lemari Pakaian', 'Stok' : 10, 'Qty Terjual' : 5, 'Harga Beli':700000,'Harga Jual': 900000, 'Kategori': 'Bedroom', 'Warna' : 'Brown', 'Batch No' : 'JAN122025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
+    '2': {'Nama Barang' : 'Sofa', 'Stok' : 10, 'Qty Terjual' : 2,'Harga Beli': 3500000,'Harga Jual': 5000000, 'Kategori': 'Living Room', 'Warna' : 'Black', 'Batch No' : 'FEB142025',  'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
+    '3': {'Nama Barang' : 'Meja Makan', 'Stok' : 10, 'Qty Terjual' : 0,'Harga Beli': 350000, 'Harga Jual': 500000, 'Kategori': 'Dining Room', 'Warna' : 'White',  'Batch No' : 'DES162025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
+    '4': {'Nama Barang' : 'Kursi Makan', 'Stok' : 10, 'Qty Terjual' : 0,'Harga Beli': 150000, 'Harga Jual': 200000, 'Kategori': 'Dining Room', 'Warna' : 'White',  'Batch No' : 'DES162025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
+    '5': {'Nama Barang' : 'Tempat Tidur', 'Stok' : 10, 'Qty Terjual' : 0,'Harga Beli': 4500000, 'Harga Jual': 6000000, 'Kategori': 'Bedroom', 'Warna' : 'Grey',  'Batch No' : 'JAN122025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
+    '6': {'Nama Barang' : 'Rak Buku', 'Stok' : 10, 'Qty Terjual' : 3,'Harga Beli': 200000, 'Harga Jual': 250000, 'Kategori': 'Bedroom', 'Warna' : 'Brown',  'Batch No' : 'OKT122025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
+    '7': {'Nama Barang' : 'Kabinet', 'Stok' : 10, 'Qty Terjual' : 2,'Harga Beli': 1100000, 'Harga Jual': 1250000, 'Kategori': 'Living Room', 'Warna' : 'Black',  'Batch No' : 'OKT122025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
+    '8': {'Nama Barang' : 'Meja Tamu', 'Stok' : 10, 'Qty Terjual' : 1,'Harga Beli': 250000, 'Harga Jual': 300000, 'Kategori': 'Living Room', 'Warna' : 'Grey',  'Batch No' : 'OKT122025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''}
 }
 
 def daftarBarang(listBarang):
-    idBarang = [{'ID Barang': index, **item} for index, (key, item) in enumerate(listBarang.items(), start=1)]
-    table = tabulate(idBarang, headers='keys', tablefmt='grid', maxcolwidths=[5, 5, 5, 8, 8, 10, 5, 5, 5, 5])
-    print("\n Daftar Barang:")
-    print(table)
+    table_data = [[idBarang] + list(barang.values()) for idBarang, barang in listBarang.items()]
+    headers = ['ID Barang', 'Nama Barang', 'Stok', 'Qty Terjual', 'Harga Beli', 'Harga Jual', 'Kategori', 'Warna', 'Batch No', 'Waktu Masuk', 'Waktu Keluar']
+    print(tabulate(table_data, headers=headers, tablefmt='grid'))
 
 def tambahBarang(listBarang):
     daftarBarang(listBarang)
@@ -32,7 +31,7 @@ def tambahBarang(listBarang):
     warnaBaru = input("Masukkan Warna Barang: ")
     batchNoBaru = input("Masukkan Batch No Barang: ")
 
-    idBaru = max(listBarang.keys()) + 1
+    idBaru = str(int(max(listBarang.keys(), key=int)) + 1) if listBarang else '1'
     listBarang[idBaru] = {
         'Nama Barang': namaBaru,
         'Stok': stokBaru,
@@ -49,7 +48,7 @@ def tambahBarang(listBarang):
 
 def kurangBarang(listBarang):
     daftarBarang(listBarang)
-    hapusID = int(input("Masukkan ID Barang yang ingin dihapus: "))
+    hapusID = input("Masukkan ID Barang yang ingin dihapus: ")
     if hapusID in listBarang:
         del listBarang[hapusID]
     else:
@@ -58,7 +57,7 @@ def kurangBarang(listBarang):
 
 def updateBarang(listBarang):
     daftarBarang(listBarang)
-    idUpdate = int(input("Masukkan ID Barang yang ingin diupdate: "))
+    idUpdate = input("Masukkan ID Barang yang ingin diupdate: ")
     if idUpdate not in listBarang:
         print("ID tidak valid!")
         return
@@ -72,7 +71,7 @@ def updateBarang(listBarang):
               5. Warna
               6. Batch No
               ''')
-        revisi = input("Masukkan informasi barang yang ingin diupdate (1-5): ")
+        revisi = input("Masukkan informasi barang yang ingin diupdate (1-6): ")
 
         if revisi == "1":
             namaAfter = input("Masukkan nama baru barang: ")
@@ -100,7 +99,7 @@ def updateBarang(listBarang):
 
 def hargaBarang(listBarang):
     daftarBarang(listBarang)
-    idBarang = int(input("Masukkan ID Barang untuk mengatur harga jual: "))
+    idBarang = input("Masukkan ID Barang untuk mengatur harga jual: ")
     if idBarang in listBarang:
         hargaJual = int(input("Masukkan harga jual barang: "))
         listBarang[idBarang]['Harga Jual'] = hargaJual
@@ -111,7 +110,7 @@ def hargaBarang(listBarang):
 
 def alokasiBarang(listBarang):
     daftarBarang(listBarang)
-    idBarang = int(input('Masukkan ID Barang yang terjual: '))
+    idBarang = input('Masukkan ID Barang yang terjual: ')
     if idBarang in listBarang:
         qtyTerjual = int(input("Masukkan Qty Barang Terjual: "))
         if qtyTerjual <= listBarang[idBarang]['Stok']:
