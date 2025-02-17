@@ -7,14 +7,14 @@ import pwinput
 from datetime import datetime
 
 listBarang = {
-    1: {'Nama Barang' : 'Lemari Pakaian', 'Stok' : '10', 'Qty Terjual' : '5', 'Harga Beli':'700000','Harga Jual': '900000', 'Kategori': 'Bedroom', 'Warna' : 'Brown', 'Batch No' : 'JAN122025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
-    2: {'Nama Barang' : 'Sofa', 'Stok' : '10', 'Qty Terjual' : '2','Harga Beli': '3500000','Harga Jual': '5000000', 'Kategori': 'Living Room', 'Warna' : 'Black', 'Batch No' : 'FEB142025',  'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
-    3: {'Nama Barang' : 'Meja Makan', 'Stok' : '10', 'Qty Terjual' : '0','Harga Beli': '350000', 'Harga Jual': '500000', 'Kategori': 'Dining Room', 'Warna' : 'White',  'Batch No' : 'DES162025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
-    4: {'Nama Barang' : 'Kursi Makan', 'Stok' : '10', 'Qty Terjual' : '0','Harga Beli': '150000', 'Harga Jual': '200000', 'Kategori': 'Dining Room', 'Warna' : 'White',  'Batch No' : 'DES162025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
-    5: {'Nama Barang' : 'Tempat Tidur', 'Stok' : '10', 'Qty Terjual' : '0','Harga Beli': '4500000', 'Harga Jual': '6000000', 'Kategori': 'Bedroom', 'Warna' : 'Grey',  'Batch No' : 'JAN122025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
-    6: {'Nama Barang' : 'Rak Buku', 'Stok' : '10', 'Qty Terjual' : '3','Harga Beli': '200000', 'Harga Jual': '250000', 'Kategori': 'Bedroom', 'Warna' : 'Brown',  'Batch No' : 'OKT122025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
-    7: {'Nama Barang' : 'Kabinet', 'Stok' : '10', 'Qty Terjual' : '2','Harga Beli': '1100000', 'Harga Jual': '1250000', 'Kategori': 'Living Room', 'Warna' : 'Black',  'Batch No' : 'OKT122025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
-    8: {'Nama Barang' : 'Meja Tamu', 'Stok' : '10', 'Qty Terjual' : '1','Harga Beli': '250000', 'Harga Jual': '300000', 'Kategori': 'Living Room', 'Warna' : 'Grey',  'Batch No' : 'OKT122025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''}
+    1: {'Nama Barang' : 'Lemari Pakaian', 'Stok' : 10, 'Qty Terjual' : 5, 'Harga Beli':700000,'Harga Jual': 900000, 'Kategori': 'Bedroom', 'Warna' : 'Brown', 'Batch No' : 'JAN122025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
+    2: {'Nama Barang' : 'Sofa', 'Stok' : 10, 'Qty Terjual' : 2,'Harga Beli': 3500000,'Harga Jual': 5000000, 'Kategori': 'Living Room', 'Warna' : 'Black', 'Batch No' : 'FEB142025',  'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
+    3: {'Nama Barang' : 'Meja Makan', 'Stok' : 10, 'Qty Terjual' : 0,'Harga Beli': 350000, 'Harga Jual': 500000, 'Kategori': 'Dining Room', 'Warna' : 'White',  'Batch No' : 'DES162025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
+    4: {'Nama Barang' : 'Kursi Makan', 'Stok' : 10, 'Qty Terjual' : 0,'Harga Beli': 150000, 'Harga Jual': 200000, 'Kategori': 'Dining Room', 'Warna' : 'White',  'Batch No' : 'DES162025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
+    5: {'Nama Barang' : 'Tempat Tidur', 'Stok' : 10, 'Qty Terjual' : 0,'Harga Beli': 4500000, 'Harga Jual': 6000000, 'Kategori': 'Bedroom', 'Warna' : 'Grey',  'Batch No' : 'JAN122025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
+    6: {'Nama Barang' : 'Rak Buku', 'Stok' : 10, 'Qty Terjual' : 3,'Harga Beli': 200000, 'Harga Jual': 250000, 'Kategori': 'Bedroom', 'Warna' : 'Brown',  'Batch No' : 'OKT122025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
+    7: {'Nama Barang' : 'Kabinet', 'Stok' : 10, 'Qty Terjual' : 2,'Harga Beli': 1100000, 'Harga Jual': 1250000, 'Kategori': 'Living Room', 'Warna' : 'Black',  'Batch No' : 'OKT122025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''},
+    8: {'Nama Barang' : 'Meja Tamu', 'Stok' : 10, 'Qty Terjual' : 1,'Harga Beli': 250000, 'Harga Jual': 300000, 'Kategori': 'Living Room', 'Warna' : 'Grey',  'Batch No' : 'OKT122025', 'Waktu Masuk': '2025-02-16 17:23:32', 'Waktu Keluar': ''}
 }
 
 def daftarBarang(listBarang):
